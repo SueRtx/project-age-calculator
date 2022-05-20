@@ -13,9 +13,20 @@ export default class HumanAge {
       return (Math.round(this.ageNow / 1.88));;
     } else if (planet === "jupiter" ) {
       return (Math.round(this.ageNow / 11.86));;
-   
     } else {
       return "";
     }
-  }  
+  } 
+  
+  planetAgeLeft(planet2) {
+    if (this.ageNow < this.ageEnd){
+      if (planet2 === "mercury"){
+        return (Math.round((this.ageEnd - this.ageNow) / .24));
+      }
+    }
+
+
+
+
+}
 }
