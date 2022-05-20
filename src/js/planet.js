@@ -8,11 +8,11 @@ export default class HumanAge {
     if (planet === "mercury" ) {
       return (Math.round(this.ageNow / .24));
     } else if (planet === "venus" ) {
-      return (Math.round(this.ageNow / .62));;
+      return (Math.round(this.ageNow / .62));
     } else if (planet === "mars" ) {
-      return (Math.round(this.ageNow / 1.88));;
+      return (Math.round(this.ageNow / 1.88));
     } else if (planet === "jupiter" ) {
-      return (Math.round(this.ageNow / 11.86));;
+      return (Math.round(this.ageNow / 11.86));
     } else {
       return "";
     }
@@ -26,10 +26,10 @@ export default class HumanAge {
         return (Math.round((this.ageEnd - this.ageNow) / .62));
       } else if (planet2 === "mars"){
         return (Math.round((this.ageEnd - this.ageNow) / 1.88)); 
-      } else {
+      } else {   //jupiter
         return (Math.round((this.ageEnd - this.ageNow) / 11.86));
-      
       }
+
     } else {
       if (planet2 === "mercury") {
         return (Math.round((this.ageNow - this.ageEnd) / .24));
@@ -37,15 +37,9 @@ export default class HumanAge {
         return (Math.round((this.ageNow - this.ageEnd) / .62));
       } else if (planet2 === "mars") {
         return (Math.round((this.ageNow - this.ageEnd) / 1.88));
-      } else  {
+      } else  {   //jupiter
         return (Math.round((this.ageNow - this.ageEnd) / 11.86));
-     
       }
-
-
-
-
-
-}
-}
+    }
+  }
 }
