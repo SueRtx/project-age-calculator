@@ -2,7 +2,6 @@ export default class HumanAge {
   constructor(ageNow, ageEnd) {
     this.ageNow = ageNow;
     this.ageEnd = ageEnd;
-
   }
 
   planetAge(planet) {
