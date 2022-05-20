@@ -3,7 +3,7 @@ import HumanAge from '../src/js/planet.js';
 describe('HumanAge', () => {
   let humanAge
   beforeEach(() =>{
-    humanAge = humanAge = new HumanAge(30, 90);
+    humanAge = new HumanAge(30, 90);
   })
 
   test("should correctly create a humanAge object", () => {
@@ -33,7 +33,7 @@ describe('HumanAge', () => {
   });
 
   test("should correctly calculate life expectancy age past in Mercury years", () => {
-    const humanAge = new HumanAge(95, 80);
+    let humanAge = new HumanAge(95, 80);
     expect(humanAge.planetAgeLeft("mercury")).toEqual(63);
   });
 
