@@ -1,11 +1,11 @@
-/*export default class temp {
-  constructor(side1, side2, side3) {
-    this.side1 = side1;
-    this.side2 = side2;
-    this.side3 = side3;
+export default class HumanAge {
+  constructor(ageNow, ageEnd) {
+    this.ageNow = ageNow;
+    this.ageEnd = ageEnd;
+
   }
 
-  checkType() {
+ /* checkType() {
     if ( ) {
       return " ";
     } else if ( ) {
@@ -15,5 +15,5 @@
     } else {
       return " ";
     }
-  }    
-}*/
+  } */   
+}
