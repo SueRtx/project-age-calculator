@@ -30,10 +30,16 @@ export default class HumanAge {
         return (Math.round((this.ageEnd - this.ageNow) / 11.86));
       }
     } else {
-      if ( planet2 === "mercury") {
+      if (planet2 === "mercury") {
         return (Math.round((this.ageNow - this.ageEnd) / .24));
- 
-    }
+      } else if (planet2 === "venus") {
+        return (Math.round((this.ageNow - this.ageEnd) / .62));
+      } else if (planet2 === "mars") {
+        return (Math.round((this.ageNow - this.ageEnd) / 1.88));
+      } else if (planet2 === "jupiter") {
+        return (Math.round((this.ageNow - this.ageEnd) / 11.86));
+      }
+
 
 
 
