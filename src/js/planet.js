@@ -5,15 +5,14 @@ export default class HumanAge {
 
   }
 
- /* checkType() {
-    if ( ) {
-      return " ";
-    } else if ( ) {
-      return " ";
-    }  else if ( ) {
-      return " ";
+  planetAge(planet) {
+    if (planet === "mercury" ) {
+      return (Math.round(this.ageNow/.24));
+   // } else if ( ) {
+   //   return " ";
+   
     } else {
-      return " ";
+      return "";
     }
-  } */   
+  }  
 }
