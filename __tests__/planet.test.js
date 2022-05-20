@@ -8,6 +8,11 @@ describe('HumanAge', () => {
     expect(humanAge.ageEnd).toEqual(90);
   });
 
+  test("should correctly  calculate user age on the Mercury", () => {
+    const humanAge = new HumanAge(30, 90);
+    expect(humanAge.planetAge("mercury")).toEqual(125);
+    
+  });
   
 
 });
