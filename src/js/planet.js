@@ -22,11 +22,17 @@ export default class HumanAge {
     if (this.ageNow < this.ageEnd){
       if (planet2 === "mercury"){
         return (Math.round((this.ageEnd - this.ageNow) / .24));
-      }
+      } else if (planet2 === "venus"){
+        return (Math.round((this.ageEnd - this.ageNow) / .62));
+      } else if (planet2 === "mars"){
+        return (Math.round((this.ageEnd - this.ageNow) / 1.88)); 
+      } else if (planet2 === "jupiter"){
+        return (Math.round((this.ageEnd - this.ageNow) / 11.86));
     }
 
 
 
 
+}
 }
 }
