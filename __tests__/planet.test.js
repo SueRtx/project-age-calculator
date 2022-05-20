@@ -1,4 +1,4 @@
-import Temp from './../src/js/template.js';
+import Temp from '../src/js/template.js';
 
 /*describe('Temp', () => {
 
