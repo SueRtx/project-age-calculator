@@ -30,8 +30,9 @@ export default class HumanAge {
         return (Math.round((this.ageEnd - this.ageNow) / 11.86));
       }
     } else {
-      if (planet2 === "mercury"){
-        return (Math.round((this.ageNow - this.ageEnd) / .24)); 
+      if ( planet2 === "mercury") {
+        return (Math.round((this.ageNow - this.ageEnd) / .24));
+ 
     }
 
 

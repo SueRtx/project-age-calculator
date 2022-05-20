@@ -37,6 +37,14 @@ describe('HumanAge', () => {
     expect(humanAge.planetAgeLeft("mercury")).toEqual(63);
   });
 
+  test("should correctly calculate life expectancy age past in planet years", () => {
+    let humanAge = new HumanAge(90, 70);
+    expect(humanAge.planetAgeLeft("mercury")).toEqual(83);
+    expect(humanAge.planetAgeLeft("venus")).toEqual(32);
+    expect(humanAge.planetAgeLeft("mars")).toEqual(11);
+    expect(humanAge.planetAgeLeft("jupiter")).toEqual(2);
+  });
+
 
 
 });
