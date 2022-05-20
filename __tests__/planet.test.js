@@ -1,14 +1,13 @@
-import Temp from '../src/js/template.js';
+import HumanAge from '../src/js/planet.js';
 
-/*describe('Temp', () => {
+describe('HumanAge', () => {
 
-  test('should correctly create a triangle object with three lengths', () => {
-    const triangle = new Triangle(2,4,5);
-    expect(triangle.side1).toEqual(2);
-    expect(triangle.side2).toEqual(4);
-    expect(triangle.side3).toEqual(5);
+  test("should correctly create a humanAge object", () => {
+    const humanAge = new HumanAge(30, 90);
+    expect(humanAge.ageNow).toEqual(30);
+    expect(humanAge.ageEnd).toEqual(90);
   });
 
   
 
-});*/
+});
