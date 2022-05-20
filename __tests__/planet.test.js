@@ -26,4 +26,12 @@ describe('HumanAge', () => {
     expect(humanAge.planetAgeLeft("mercury")).toEqual(250);
   });
 
+  test("should correctly calculate life expectancy age left in Mercury years", () => {
+    expect(humanAge.planetAgeLeft("venus")).toEqual(97);
+    expect(humanAge.planetAgeLeft("mars")).toEqual(32);
+    expect(humanAge.planetAgeLeft("jupiter")).toEqual(5);
+  });
+
+
+
 });
