@@ -26,10 +26,15 @@ describe('HumanAge', () => {
     expect(humanAge.planetAgeLeft("mercury")).toEqual(250);
   });
 
-  test("should correctly calculate life expectancy age left in Mercury years", () => {
+  test("should correctly calculate life expectancy age left in planet years", () => {
     expect(humanAge.planetAgeLeft("venus")).toEqual(97);
     expect(humanAge.planetAgeLeft("mars")).toEqual(32);
     expect(humanAge.planetAgeLeft("jupiter")).toEqual(5);
+  });
+
+  test("should correctly calculate life expectancy age past in Mercury years", () => {
+    const humanAge = new HumanAge(95, 80);
+    expect(humanAge.planetAgeLeft("mercury")).toEqual(63);
   });
 
 
