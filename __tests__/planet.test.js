@@ -45,6 +45,6 @@ describe('HumanAge', () => {
     expect(humanAge.planetAgeLeft("jupiter")).toEqual(2);
   });
 
-
+  
 
 });
