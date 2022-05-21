@@ -1,7 +1,8 @@
 import HumanAge from '../src/js/planet.js';
 
 describe('HumanAge', () => {
-  let humanAge
+  
+  let humanAge;
   beforeEach(() =>{
     humanAge = new HumanAge(30, 90);
   })

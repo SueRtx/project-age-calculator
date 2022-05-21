@@ -1,3 +1,32 @@
 body {
-  background-color: lightblue;
+  background-color: rgb(14, 14, 14);
 }
+
+h1 {
+  margin-top: 5%;
+  color:rgb(236, 54, 166);
+  text-align: center;
+  font-size: 45px;
+}
+
+#user-form{
+  color:rgb(64, 188, 50);
+  border: 2px solid rgb(161, 48, 125);
+  width: 450px;
+  margin-top: 5%;
+  padding: 25px; 
+}
+
+#userName, #userAgeNow, #userAgeEnd {
+  width: 140px;
+  float: right
+}
+
+#planet-form {
+  color:rgb(112, 172, 210);
+  border: 2px solid rgb(161, 48, 125);
+  width: 700px;
+  margin-top: 5%;
+  margin-left: 35%;
+  padding: 25px; 
+} 
