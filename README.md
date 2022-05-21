@@ -6,6 +6,9 @@
 
 ## Technologies Used
 
+* HTML
+* CSS
+* Bootsrap
 * javaScript
 * jest
 * webpack
